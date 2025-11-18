@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Hear - Volume Limiter</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 50px;
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1em;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            color: #555;
+            font-size: 1.05em;
+        }
+        
+        ul {
+            margin-left: 30px;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        
+        li {
+            margin-bottom: 10px;
+        }
+        
+        .back-link {
+            display: inline-block;
+            color: #667eea;
+            text-decoration: none;
+            margin-top: 40px;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+        
+        .back-link:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+        
+        .last-updated {
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Hear - Volume Limiter</p>
+        
+        <p><strong>Last Updated:</strong> <span id="currentDate"></span></p>
+        
+        <h2>Introduction</h2>
+        <p>
+            Hear - Volume Limiter ("the App") is a macOS application designed to help protect your hearing 
+            by limiting the maximum system volume. This Privacy Policy explains how we handle your data 
+            when you use the App.
+        </p>
+        
+        <h2>Data Collection</h2>
+        <p>
+            Hear - Volume Limiter is designed with privacy in mind. We do not collect, store, or transmit 
+            any personal information or user data. The App operates entirely locally on your device.
+        </p>
+        
+        <h2>Analytics</h2>
+        <p>
+            The App uses Sentry for error tracking and analytics. Sentry is a privacy-focused service that 
+            helps us identify and fix technical issues. The information collected by Sentry includes:
+        </p>
+        <ul>
+            <li>Anonymous error reports and crash logs</li>
+            <li>Technical information about your device (OS version, app version)</li>
+            <li>No personal identifiers or user-specific data</li>
+        </ul>
+        <p>
+            This data is used solely for improving the App's stability and performance. Sentry's privacy 
+            practices comply with GDPR and other privacy regulations.
+        </p>
+        
+        <h2>Local Data Storage</h2>
+        <p>
+            The App stores your preferences (such as volume limits and device selections) locally on your 
+            Mac using macOS's standard UserDefaults system. This data never leaves your device and is not 
+            accessible to us or any third parties.
+        </p>
+        
+        <h2>Third-Party Services</h2>
+        <p>
+            The App uses the following third-party service:
+        </p>
+        <ul>
+            <li><strong>Sentry:</strong> For error tracking and analytics (privacy-safe, no personal data collected)</li>
+        </ul>
+        
+        <h2>Your Rights</h2>
+        <p>
+            Since we do not collect personal data, there is no personal information to access, modify, or delete. 
+            You can uninstall the App at any time, which will remove all locally stored preferences.
+        </p>
+        
+        <h2>Changes to This Policy</h2>
+        <p>
+            We may update this Privacy Policy from time to time. Any changes will be posted on this page 
+            with an updated revision date.
+        </p>
+        
+        <h2>Contact Us</h2>
+        <p>
+            If you have any questions about this Privacy Policy, please contact us at:
+            <a href="mailto:pawels.apps@gmail.com" style="color: #667eea;">pawels.apps@gmail.com</a>
+        </p>
+        
+        <a href="index.html" class="back-link">← Back to Support</a>
+        
+        <p class="last-updated">
+            This privacy policy is effective as of the date listed above.
+        </p>
+    </div>
+    
+    <script>
+        // Set current date
+        document.getElementById('currentDate').textContent = new Date().toLocaleDateString('en-US', { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric' 
+        });
+    </script>
+</body>
+</html>
+
